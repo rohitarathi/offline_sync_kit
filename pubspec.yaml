@@ -1,0 +1,39 @@
+name: flutter_offline_sync_queue
+description: >-
+  Offline-first background sync for Flutter apps. 
+  Queue any local Dart model while offline and sync it automatically to any REST API when connectivity returns. 
+  Built on WorkManager with battery awareness, lifecycle guards, auto-retry, dead-letter support, and local notifications. 
+  No code generation required.
+
+version: 0.1.1
+homepage: https://github.com/rohitarathi/offline_sync_kit
+repository: https://github.com/rohitarathi/offline_sync_kit
+issue_tracker: https://github.com/yourname/offline_sync_kit/issues
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.13.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  hive_flutter: ^1.1.0
+  workmanager: ^0.5.0
+  flutter_local_notifications: ^17.0.0
+  dio: ^5.0.0
+  connectivity_plus: ^6.0.0
+  path_provider: ^2.1.0
+  shared_preferences: ^2.2.0
+  battery_plus: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+topics:
+  - offline
+  - sync
+  - background
+  - workmanager
+  - hive
