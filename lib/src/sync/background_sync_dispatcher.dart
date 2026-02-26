@@ -97,7 +97,7 @@ class BackgroundSyncManager {
       config.workerName,
       config.workerName,
       frequency: config.backgroundSyncInterval,
-      existingWorkPolicy: ExistingWorkPolicy.keep,
+      existingWorkPolicy: ExistingPeriodicWorkPolicy.keep,
       initialDelay: const Duration(minutes: 1),
       inputData: inputData,
       constraints: constraints,

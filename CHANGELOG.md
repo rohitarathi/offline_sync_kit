@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.2
+
+- Plugins upgraded workmanager and flutter_local_notifications
+
 ## 0.1.1
 
 - Improved package description

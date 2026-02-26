@@ -5,7 +5,7 @@ description: >-
   Built on WorkManager with battery awareness, lifecycle guards, auto-retry, dead-letter support, and local notifications. 
   No code generation required.
 
-version: 0.1.1
+version: 0.1.2
 homepage: https://github.com/rohitarathi/offline_sync_kit
 repository: https://github.com/rohitarathi/offline_sync_kit
 issue_tracker: https://github.com/yourname/offline_sync_kit/issues
@@ -18,8 +18,8 @@ dependencies:
   flutter:
     sdk: flutter
   hive_flutter: ^1.1.0
-  workmanager: ^0.5.0
-  flutter_local_notifications: ^17.0.0
+  workmanager: ^0.9.0+3
+  flutter_local_notifications: ^19.4.0
   dio: ^5.0.0
   connectivity_plus: ^6.0.0
   path_provider: ^2.1.0
